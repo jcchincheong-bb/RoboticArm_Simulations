@@ -91,5 +91,5 @@ BC_ConstraintEquations;
 Phi = subs(Phi,t,0);
 [q_sol,steps] = NRfunc(Phi,q,q_0,0.001,10);
 Phi_0 = vpa(subs(Phi,q,q_0)); Phi_sol = vpa(subs(Phi,q,q_sol));
-T = table(q_0,Phi_0,q_sol,Phi_sol,'VariableNames',{'q0','Phi0','q_sol','Phi_sol'});
-disp(T)
+% T = table(q_0,Phi_0,q_sol,Phi_sol,'VariableNames',{'q0','Phi0','q_sol','Phi_sol'});
+% disp(T)
