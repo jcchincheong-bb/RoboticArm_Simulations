@@ -8,8 +8,9 @@ The goal here is to create efficient 2D and 3D simulations in order to model a c
 > **Note 08.01.2025:** The current prototype gives nonsense results and there isn't much else, but I will be working on it in the next few weeks. Have fun watching along!
 
 ## 🔧 Current Features
+- Basic 2D kinematic simulation using the **body coordinate formulation**  
 
-- Basic kinematic simulation using the **body coordinate formulation**  
+<imge src='https://github.com/jcchincheong-bb/RoboticArm_Simulations/blob/main/src/assets/RobArm.png' width='250'>
 
 ## 📦 Requirements
 - MATLAB R2018b or later
