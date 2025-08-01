@@ -5,7 +5,7 @@ Draws a lot of content from my other project on [Planar Mulitbody Dynamics](http
 
 The goal here is to create efficient 2D and 3D simulations in order to model a controller for the robotic arm.
 
-> **Note 08.01.2025:** The current prototype gives nonsense results and there isn't much else, but I will be working on it in the next few weeks. Have fun watching along!
+> **Note 01.08.2025:** The current prototype gives nonsense results and there isn't much else, but I will be working on it in the next few weeks. Have fun watching along!
 
 ## 🔧 Current Features
 - Basic 2D kinematic simulation using the **body coordinate formulation**  
