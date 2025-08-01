@@ -9,8 +9,7 @@
 % Dependencies: A_matrix.m, rev_pin_phi.m, rev_pin_gamma.m, NRfunc.m
 %% Reset and Dependencies
 clear
-addpath('G:\My Drive\HSRW\Semester 4\Multi body Dynamics\MBD_MATLAB\Functions')         % Adds all defined functions to our search path
-addpath('G:\My Drive\HSRW\Semester 4\Multi body Dynamics\MBD_MATLAB\BC_Formulation')    % Adds all scripts to our search path
+addpath('BCF')         % Adds all defined functions and scripts to our search path
 
 %% Defined Parameters (Model Input / Manual)
 % number of bodies
@@ -91,5 +90,5 @@ BC_ConstraintEquations;
 Phi = subs(Phi,t,0);
 [q_sol,steps] = NRfunc(Phi,q,q_0,0.001,10);
 Phi_0 = vpa(subs(Phi,q,q_0)); Phi_sol = vpa(subs(Phi,q,q_sol));
-T = table(q_0,Phi_0,q_sol,Phi_sol,'VariableNames',{'q0','Phi0','q_sol','Phi_sol'});
-disp(T)
+% T = table(q_0,Phi_0,q_sol,Phi_sol,'VariableNames',{'q0','Phi0','q_sol','Phi_sol'});
+% disp(T)
